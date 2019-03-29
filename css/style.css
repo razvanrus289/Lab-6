@@ -1,0 +1,49 @@
+nav#main-navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: blue;
+
+}
+
+nav#main-navbar ul li {
+    float: left;
+    margin: 0 15px;
+}
+
+nav#main-navbar ul li a {
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+    padding: 10px 0px 8px 0px;
+    border-radius: 4px;
+}
+
+#sidebar-container {
+    background-color: red;
+    list-style-type: none;
+    position: fixed;
+    right: 0%;
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    padding: 15px 0;
+    display: block;
+    color: #fff;
+
+}
+
+#sidebar-container li {
+    list-style-type: none;
+    padding: 15px 0;
+}
+
+#sidebar-container a {
+    list-style-type: none;
+    color: #fff;
+    padding: 15px 0;
+}
