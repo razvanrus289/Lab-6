@@ -4,12 +4,17 @@ nav#main-navbar ul {
     margin: 0;
     overflow: hidden;
     background-color: blue;
+    position: relative;
 
 }
 
 nav#main-navbar ul li {
     float: left;
     margin: 0 15px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+
 }
 
 nav#main-navbar ul li a {
@@ -18,9 +23,16 @@ nav#main-navbar ul li a {
     font-weight: bold;
     text-decoration: none;
     text-align: center;
-    width: 100px;
-    padding: 10px 0px 8px 0px;
+    width: 100%;
+    padding: 10px 20px;
     border-radius: 4px;
+    position: relative;
+    text-decoration: none;
+}
+
+#onpage {
+    text-decoration: underline overline;
+
 }
 
 #sidebar-container {
@@ -46,4 +58,5 @@ nav#main-navbar ul li a {
     list-style-type: none;
     color: #fff;
     padding: 15px 0;
+    text-decoration: none;
 }
