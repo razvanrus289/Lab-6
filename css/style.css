@@ -5,14 +5,13 @@ nav#main-navbar ul {
     overflow: hidden;
     background-color: blue;
     position: relative;
-
 }
 
 nav#main-navbar ul li {
     float: left;
     margin: 0;
     position: relative;
-    left: 40%;
+    left: 50%;
     right: 50%;
 
 }
