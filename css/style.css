@@ -10,9 +10,9 @@ nav#main-navbar ul {
 
 nav#main-navbar ul li {
     float: left;
-    margin: 0 15px;
+    margin: 0;
     position: relative;
-    left: 50%;
+    left: 40%;
     right: 50%;
 
 }
@@ -20,14 +20,10 @@ nav#main-navbar ul li {
 nav#main-navbar ul li a {
     display: block;
     color: #fff;
-    font-weight: bold;
     text-decoration: none;
-    text-align: center;
     width: 100%;
     padding: 10px 20px;
-    border-radius: 4px;
     position: relative;
-    text-decoration: none;
 }
 
 #onpage {
